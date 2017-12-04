@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sec.jimin.Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:text="지민이에 대해 알려드릴게요"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:text="방탄소년단에서 리드보컬, 메인댄서를 맡고있습니다.
+            \n\n특기는 팝핀, 현대무용, 프리스타일, 마샬아츠입니다.
+            \n\n기본 음역대가 꽤 높은 편이라 고음 소화에 강하고 몽환적이며 독특한 음색이 강점입니다.
+            \n\n보컬이 잘 드러나는 곡은 LOVE YOURSELF 承 `Her` 앨범의 1번 트랙 Intro : Serendipity입니다.
+            \n\n제작자가 가장 좋아하는 곡은 꼽을 수 없습니다. 다 좋기 때문입니다."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</FrameLayout>

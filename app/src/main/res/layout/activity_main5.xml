@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sec.jimin.Main5Activity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt_tab5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:text="지민이정보\n직접검색하기" />
+
+            <Button
+                android:id="@+id/bt_tab6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bt_tab5"
+                android:layout_alignBottom="@+id/bt_tab5"
+                android:layout_toEndOf="@+id/bt_tab5"
+                android:background="@android:color/transparent"
+                android:text="지민이와 함께하는\n지금이순간" />
+
+            <Button
+                android:id="@+id/bt_tab7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bt_tab6"
+                android:layout_alignBottom="@+id/bt_tab6"
+                android:layout_toEndOf="@+id/bt_tab6"
+                android:background="@android:color/transparent"
+                android:text="지민이에게\n한마디" />
+
+            <Button
+                android:id="@+id/bt_tab8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/bt_tab7"
+                android:background="@android:color/transparent"
+                android:text="제작자 정보" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sec.jimin.Fragment6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:text="Hello world! "
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="150dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:id="@+id/Gre"
+            android:text="Hello world!"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="200dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
